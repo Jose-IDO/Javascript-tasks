@@ -72,6 +72,19 @@ for (let i = 1; i <= 100; i++) {
 }
 console.log("Sum of numbers from 1 to 100:", sum);
 
+const numbers = [1, 2, 3, 4, 5]
+ console.log("first number =", numbers[0],)
+ console.log("second number =", numbers[1])
+console.log("third number = ", numbers[2])
+console.log("fourth number= ", numbers[3])
+console.log("fifth number= ", numbers[4])
+
+const numberz = [3,7, 2, 5, 10, 6];
+
+
+const largestNumber = Math.max(...numberz);
+console.log("The largest number is:", largestNumber);
+
 console.log("EXCERCISE 4");
 
 for (let i = 1; i <= 10; i++) {
